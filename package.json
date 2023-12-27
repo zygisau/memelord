@@ -15,7 +15,8 @@
     "botbuilder-adapter-slack": "^1.0.13",
     "botbuilder-storage-mongodb": "^1.0.4",
     "botkit": "^4.10.0",
-    "dotenv": "^7.0.0"
+    "dotenv": "^7.0.0",
+    "mongodb": "^3.5.11"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
