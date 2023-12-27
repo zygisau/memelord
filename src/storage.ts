@@ -52,8 +52,7 @@ export type AdapterStorage = MongoDbStorage;
 
 export async function createStorage() {
     const mongoClient = new MongoClient(process.env.MONGO_URI!, {
-        useUnifiedTopology: true,
-        useNewUrlParser: true
+        useUnifiedTopology: true
     });
 
     await mongoClient.connect();
